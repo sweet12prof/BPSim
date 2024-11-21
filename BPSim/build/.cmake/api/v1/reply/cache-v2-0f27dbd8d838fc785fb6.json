@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build"
+			"value" : "c:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim"
+			"value" : "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1027,7 +1027,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build"
+			"value" : "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build"
 		},
 		{
 			"name" : "PackageProj_IS_TOP_LEVEL",
@@ -1051,7 +1051,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim"
+			"value" : "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim"
 		}
 	],
 	"kind" : "cache",

@@ -1,3 +1,7 @@
 # ninja log v6
-4	1385	7536163295060529	src/CMakeFiles/main.dir/main.cpp.obj	5c7f3749d754c5de
-1387	1666	7536163308855879	src/main.exe	e10d9ac800ad28ed
+10	3427	7538857522137304	include/CMakeFiles/BPCacheLib.dir/cpp/BPBaseCache.cpp.obj	5dd02596d3e33a30
+3436	3608	7538857556449043	include/BPCacheLib.lib	3c89e45ea8bf77cf
+21	3637	7538857522284761	src/CMakeFiles/main.dir/main.cpp.obj	a7dd7a0c8568cc95
+3641	4326	7538857558512684	src/main.exe	d4f1edca0d4ceae
+24	2610	7538857946725935	src/CMakeFiles/main.dir/main.cpp.obj	a7dd7a0c8568cc95
+2617	2924	7538857972698553	src/main.exe	d4f1edca0d4ceae

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim
+# Install script for directory: C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build2/src/cmake_install.cmake")
+  include("C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build2/include/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build2/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

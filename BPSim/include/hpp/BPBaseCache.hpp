@@ -31,7 +31,9 @@ class BPBaseCache{
         ReplacementPolicy   ReplacePolicy{ReplacementPolicy::HASHED};
         int associativity                {1};               //associativity of table 
         int cacheSize                    {-1};               // size of table in bytes
-
+        std::size_t assocBitLength       {0};
+        std::size_t effectiveTableLength {256};
+        
         inline const static std::size_t BPInstructionAddressWidth{32};
         inline const static std::size_t uintcorrection {64- BPBaseCache::BPInstructionAddressWidth};
 };

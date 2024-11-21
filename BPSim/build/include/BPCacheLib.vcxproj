@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EE6A6BF6-4695-3EA7-935C-AD5393935218}</ProjectGuid>
+    <ProjectGuid>{A900FBF3-E64C-3F3B-ADF4-FFB47BF2799E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\build\include\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\build\include\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">BPCacheLib.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">BPCacheLib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\build\include\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\build\include\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BPCacheLib.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BPCacheLib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\build\include\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\build\include\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">BPCacheLib.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">BPCacheLib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\build\include\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\build\include\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">BPCacheLib.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">BPCacheLib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -193,10 +193,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,11 +208,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/include/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/include/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim" "-BC:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build" --check-stamp-file "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/include/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim" "-BC:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build" --check-stamp-file "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/include/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +221,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\build\include\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\build\include\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/include/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/include/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim" "-BC:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build" --check-stamp-file "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/include/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim" "-BC:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build" --check-stamp-file "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/include/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +234,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\build\include\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\build\include\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/include/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/include/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim" "-BC:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build" --check-stamp-file "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/include/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim" "-BC:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build" --check-stamp-file "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/include/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +247,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\build\include\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\build\include\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/include/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/include/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim" "-BC:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build" --check-stamp-file "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/include/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim" "-BC:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build" --check-stamp-file "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/include/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,18 +260,18 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\build\include\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\build\include\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp\BPBaseCache.hpp" />
-    <ClCompile Include="C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\cpp\BPBaseCache.cpp" />
-    <ClInclude Include="C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp\BPBaseStruct.hpp" />
+    <ClInclude Include="C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp\BPBaseCache.hpp" />
+    <ClCompile Include="C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\cpp\BPBaseCache.cpp" />
+    <ClInclude Include="C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\include\hpp\BPBaseStruct.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\build\ZERO_CHECK.vcxproj">
-      <Project>{5C990FED-A6E0-39EC-B821-509E6E3344B2}</Project>
+    <ProjectReference Include="C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\build\ZERO_CHECK.vcxproj">
+      <Project>{AAB8E260-2C95-3EF3-A1C1-457617B6B036}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

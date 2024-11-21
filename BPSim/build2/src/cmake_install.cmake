@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/src
+# Install script for directory: C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

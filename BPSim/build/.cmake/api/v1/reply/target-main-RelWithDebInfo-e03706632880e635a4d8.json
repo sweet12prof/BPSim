@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Release/main.exe"
+			"path" : "src/RelWithDebInfo/main.exe"
 		},
 		{
-			"path" : "src/Release/main.pdb"
+			"path" : "src/RelWithDebInfo/main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -52,7 +52,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++latest -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -std:c++latest -MD"
 				},
 				{
 					"backtrace" : 3,
@@ -63,7 +63,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/include/hpp"
+					"path" : "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/include/hpp"
 				}
 			],
 			"language" : "CXX",
@@ -97,16 +97,16 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\include\\Release\\BPCacheLib.lib",
+				"fragment" : "..\\include\\RelWithDebInfo\\BPCacheLib.lib",
 				"role" : "libraries"
 			},
 			{

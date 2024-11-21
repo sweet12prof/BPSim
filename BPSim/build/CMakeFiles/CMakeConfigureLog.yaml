@@ -24,9 +24,9 @@ events:
       The output was:
       0
       MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 20/11/2024 15:54:20.
+      Build started 21/11/2024 09:55:13.
       
-      Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -39,7 +39,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -47,13 +47,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.66
+      Time Elapsed 00:00:01.43
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -61,7 +61,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/3.28.3/CompilerIdC/CompilerIdC.exe
+        C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/3.28.3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -79,9 +79,9 @@ events:
       The output was:
       0
       MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 20/11/2024 15:54:21.
+      Build started 21/11/2024 09:55:14.
       
-      Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -94,7 +94,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -102,13 +102,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.56
+      Time Elapsed 00:00:01.26
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -116,7 +116,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/3.28.3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/3.28.3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-4dxcdk"
-      binary: "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-4dxcdk"
+      source: "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-mj9olp"
+      binary: "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-mj9olp"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-4dxcdk'
+        Change Dir: 'C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-mj9olp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_64561.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2b542.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 20/11/2024 15:54:22.
+        Build started 21/11/2024 09:55:16.
         
-        Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4dxcdk\\cmTC_64561.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mj9olp\\cmTC_2b542.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_64561.dir\\Debug\\".
+          Creating directory "cmTC_2b542.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4dxcdk\\Debug\\".
-          Creating directory "cmTC_64561.dir\\Debug\\cmTC_64561.tlog\\".
+          Creating directory "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mj9olp\\Debug\\".
+          Creating directory "cmTC_2b542.dir\\Debug\\cmTC_2b542.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_64561.dir\\Debug\\cmTC_64561.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_64561.dir\\Debug\\cmTC_64561.tlog\\unsuccessfulbuild".
+          Creating "cmTC_2b542.dir\\Debug\\cmTC_2b542.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2b542.dir\\Debug\\cmTC_2b542.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64561.dir\\Debug\\\\" /Fd"cmTC_64561.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b542.dir\\Debug\\\\" /Fd"cmTC_2b542.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34123 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64561.dir\\Debug\\\\" /Fd"cmTC_64561.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b542.dir\\Debug\\\\" /Fd"cmTC_2b542.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4dxcdk\\Debug\\cmTC_64561.exe" /INCREMENTAL /ILK:"cmTC_64561.dir\\Debug\\cmTC_64561.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-4dxcdk/Debug/cmTC_64561.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-4dxcdk/Debug/cmTC_64561.lib" /MACHINE:X64  /machine:x64 cmTC_64561.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_64561.vcxproj -> C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4dxcdk\\Debug\\cmTC_64561.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mj9olp\\Debug\\cmTC_2b542.exe" /INCREMENTAL /ILK:"cmTC_2b542.dir\\Debug\\cmTC_2b542.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-mj9olp/Debug/cmTC_2b542.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-mj9olp/Debug/cmTC_2b542.lib" /MACHINE:X64  /machine:x64 cmTC_2b542.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_2b542.vcxproj -> C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mj9olp\\Debug\\cmTC_2b542.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_64561.dir\\Debug\\cmTC_64561.tlog\\unsuccessfulbuild".
-          Touching "cmTC_64561.dir\\Debug\\cmTC_64561.tlog\\cmTC_64561.lastbuildstate".
-        Done Building Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4dxcdk\\cmTC_64561.vcxproj" (default targets).
+          Deleting file "cmTC_2b542.dir\\Debug\\cmTC_2b542.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2b542.dir\\Debug\\cmTC_2b542.tlog\\cmTC_2b542.lastbuildstate".
+        Done Building Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mj9olp\\cmTC_2b542.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.56
+        Time Elapsed 00:00:01.61
         
       exitCode: 0
   -
@@ -182,8 +182,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-n670g6"
-      binary: "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-n670g6"
+      source: "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-uwwah1"
+      binary: "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-uwwah1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -192,31 +192,31 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-n670g6'
+        Change Dir: 'C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-uwwah1'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_78ebe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_40d06.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 20/11/2024 15:54:23.
+        Build started 21/11/2024 09:55:18.
         
-        Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n670g6\\cmTC_78ebe.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uwwah1\\cmTC_40d06.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_78ebe.dir\\Debug\\".
+          Creating directory "cmTC_40d06.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n670g6\\Debug\\".
-          Creating directory "cmTC_78ebe.dir\\Debug\\cmTC_78ebe.tlog\\".
+          Creating directory "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uwwah1\\Debug\\".
+          Creating directory "cmTC_40d06.dir\\Debug\\cmTC_40d06.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_78ebe.dir\\Debug\\cmTC_78ebe.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_78ebe.dir\\Debug\\cmTC_78ebe.tlog\\unsuccessfulbuild".
+          Creating "cmTC_40d06.dir\\Debug\\cmTC_40d06.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_40d06.dir\\Debug\\cmTC_40d06.tlog\\unsuccessfulbuild".
         ComputeStdModulesCompileInputs:
           Reading library manifest file 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\modules\\modules.json' which provides data for library 'microsoft/STL'.
           Adding module source 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\modules\\std.ixx' from library 'microsoft/STL' to be built with this project.
           Adding module source 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\modules\\std.compat.ixx' from library 'microsoft/STL' to be built with this project.
         MakeDirsForCl:
-          Creating directory "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n670g6\\cmTC_78ebe.dir\\Debug\\microsoft\\STL".
+          Creating directory "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uwwah1\\cmTC_40d06.dir\\Debug\\microsoft\\STL".
         SetModuleDependencies:
-          Creating directory "cmTC_78ebe.dir\\Debug\\cmTC_78ebe_MD.tlog\\".
+          Creating directory "cmTC_40d06.dir\\Debug\\cmTC_40d06_MD.tlog\\".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_78ebe.dir\\Debug\\\\" /Fd"cmTC_78ebe.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_40d06.dir\\Debug\\\\" /Fd"cmTC_40d06.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34123 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           /std:c++latest is provided as a preview of language features from the latest C++
@@ -224,21 +224,21 @@ events:
           However, note that these features are provided as-is without support, and subject
           to changes or removal as the working draft evolves. See
           https://go.microsoft.com/fwlink/?linkid=2045807 for details.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_78ebe.dir\\Debug\\\\" /Fd"cmTC_78ebe.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_40d06.dir\\Debug\\\\" /Fd"cmTC_40d06.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n670g6\\Debug\\cmTC_78ebe.exe" /INCREMENTAL /ILK:"cmTC_78ebe.dir\\Debug\\cmTC_78ebe.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-n670g6/Debug/cmTC_78ebe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-n670g6/Debug/cmTC_78ebe.lib" /MACHINE:X64  /machine:x64 cmTC_78ebe.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_78ebe.vcxproj -> C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n670g6\\Debug\\cmTC_78ebe.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uwwah1\\Debug\\cmTC_40d06.exe" /INCREMENTAL /ILK:"cmTC_40d06.dir\\Debug\\cmTC_40d06.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-uwwah1/Debug/cmTC_40d06.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/CMakeScratch/TryCompile-uwwah1/Debug/cmTC_40d06.lib" /MACHINE:X64  /machine:x64 cmTC_40d06.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_40d06.vcxproj -> C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uwwah1\\Debug\\cmTC_40d06.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_78ebe.dir\\Debug\\cmTC_78ebe.tlog\\unsuccessfulbuild".
-          Touching "cmTC_78ebe.dir\\Debug\\cmTC_78ebe.tlog\\cmTC_78ebe.lastbuildstate".
-        Done Building Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\cpp\\BP Sim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n670g6\\cmTC_78ebe.vcxproj" (default targets).
+          Deleting file "cmTC_40d06.dir\\Debug\\cmTC_40d06.tlog\\unsuccessfulbuild".
+          Touching "cmTC_40d06.dir\\Debug\\cmTC_40d06.tlog\\cmTC_40d06.lastbuildstate".
+        Done Building Project "C:\\Users\\Chris Nutsukpui\\Desktop\\CPP\\BPSim\\BPSim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uwwah1\\cmTC_40d06.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.58
+        Time Elapsed 00:00:01.50
         
       exitCode: 0
 ...

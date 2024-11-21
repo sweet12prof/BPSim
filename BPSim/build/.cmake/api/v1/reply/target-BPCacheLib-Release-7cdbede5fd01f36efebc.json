@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "include/Debug/BPCacheLib.lib"
+			"path" : "include/Release/BPCacheLib.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -52,14 +52,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++latest -MD"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/include/hpp"
+					"path" : "C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/include/hpp"
 				}
 			],
 			"language" : "CXX",
