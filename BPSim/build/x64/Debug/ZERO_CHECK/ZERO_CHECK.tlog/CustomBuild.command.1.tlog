@@ -1,0 +1,10 @@
+^C:\USERS\CHRIS NUTSUKPUI\DESKTOP\CPP\CPP\BP SIM\BPSIM\BUILD\CMAKEFILES\1BBBBC7D1D4F8939597DDF3CA518B225\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim" "-BC:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Chris Nutsukpui/Desktop/CPP/cpp/BP Sim/BPSim/build/PackageProj.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

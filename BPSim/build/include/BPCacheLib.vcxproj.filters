@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\cpp\BPBaseCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp\BPBaseCache.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\hpp\BPBaseStruct.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Chris Nutsukpui\Desktop\CPP\cpp\BP Sim\BPSim\include\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AE1196D2-E699-3BD2-AD6F-335216529412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{783589CA-010E-308E-9261-F1B8F42F2EFB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
