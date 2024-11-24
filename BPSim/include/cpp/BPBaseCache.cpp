@@ -28,22 +28,24 @@ BPentryReturnVal BPBaseCache::getEantry(uint64_t address) {
             tag   = ((temp >> BPflatIndexLength) << BPflatIndexLength) & address;
             tag   =  tag >> BPflatIndexLength;
             std::uint64_t effIndex = (index);
+            std::size_t found_Index{NULL};
 
             for (std::size_t i{effIndex}; i< this->effectiveTableLength; i+= this->numOfEntries){
                  if (tag == bTable[i].tag){
-                    if(ReplacePolicy == ReplacementPolicy::LRU)
-                         BPBaseCache::bTable[i].lrutrack = 0;
-                     return {bTable[index].data, true};
+                    if(ReplacePolicy == ReplacementPolicy::LRU) 
+                        BPBaseCache::bTable[i].lrutrack = 0;
+                    found_Index = i;    
+                    break;
                 }
                  if(ReplacePolicy == ReplacementPolicy::LRU)
                     bTable[i].lrutrack++;
             }
-                return { 0, false };
+                return (found_Index == NULL) ? BPentryReturnVal{ 0, false } : BPentryReturnVal{bTable[found_Index].data, true};
         }   
     return { bTable[index].data, true };
 }
 
-void BPBaseCache::replaceEntry(uint64_t address, uint32_t entryData){
+void BPBaseCache::replaceEntry(uint64_t address, uint64_t entryData){
     uint64_t temp{0xFFFFFFFF'FFFFFFFF};
     std::uint64_t index{0}, tag{0};
     index = ((temp << (BPTagLength_shift + BPBaseCache::uintcorrection)) >>( BPTagLength_shift + BPBaseCache::uintcorrection)) & address;
@@ -56,7 +58,7 @@ void BPBaseCache::replaceEntry(uint64_t address, uint32_t entryData){
             BPBaseCache::replacePolicyHASHED(index, entryData);
         break;
 
-        case ReplacementPolicy::LRU : 
+        case ReplacementPolicy::LRU :
             BPBaseCache::replacePolicyLRU(index, tag, entryData);
         break;    
 
@@ -71,7 +73,7 @@ void BPBaseCache::replaceEntry(uint64_t address, uint32_t entryData){
 }
 
 
- void BPBaseCache::replacePolicyLRU(uint64_t index, uint64_t tag,  uint32_t entryData){
+ void BPBaseCache::replacePolicyLRU(uint64_t index, uint64_t tag,  uint64_t entryData){
             uint64_t lruIndex = (index );
             for (std::size_t i{lruIndex+this->numOfEntries}; i <(this->effectiveTableLength); i+= this->numOfEntries){
                 if( bTable[lruIndex].lrutrack < bTable[i].lrutrack ){
@@ -94,7 +96,7 @@ void BPBaseCache::replaceEntry(uint64_t address, uint32_t entryData){
     this->bTable[index].data = entryData;
  }
 
- void BPBaseCache::replacePolicyRANDOM(uint64_t index, uint64_t tag, uint32_t entryData){
+ void BPBaseCache::replacePolicyRANDOM(uint64_t index, uint64_t tag, uint64_t entryData){
 
         static std::random_device rd;
         static std::default_random_engine engine(rd());
@@ -106,4 +108,10 @@ void BPBaseCache::replaceEntry(uint64_t address, uint32_t entryData){
       this->bTable[eFFIndex].data = entryData;
       this->bTable[eFFIndex].tag  = tag;
 
+ }
+
+
+ void BPBaseCache::InitBPTable(uint64_t entryData){
+    for(auto &item : bTable)
+            item = { .tag{0},.data{entryData}, .lrutrack{0}};
  }

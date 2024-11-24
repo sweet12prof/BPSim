@@ -12,11 +12,13 @@ class BPBaseCache{
         int associativity, int cacheSize, TableType tableType, ReplacementPolicy policy); 
        
         BPentryReturnVal getEantry(uint64_t address);
-        void replaceEntry(uint64_t address, uint32_t entryData);
+        void replaceEntry(uint64_t address, uint64_t entryData);
 
         void replacePolicyHASHED(uint64_t index, uint64_t entryData);
-        void replacePolicyLRU(uint64_t index, uint64_t tag,  uint32_t entryData);
-        void replacePolicyRANDOM(uint64_t index, uint64_t tag, uint32_t entryData);
+        void replacePolicyLRU(uint64_t index, uint64_t tag,  uint64_t entryData);
+        void replacePolicyRANDOM(uint64_t index, uint64_t tag, uint64_t entryData);
+
+        void InitBPTable(uint64_t entryData);
 
 
     private:
