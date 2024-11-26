@@ -45,6 +45,31 @@ BPentryReturnVal BPBaseCache::getEantry(uint64_t address) {
     return { bTable[index].data, true };
 }
 
+void BPBaseCache::modifyDataEntry(uint64_t address, uint64_t entryData){
+    uint64_t temp{0xFFFFFFFF'FFFFFFFF};
+    std::uint64_t index{0}, tag{0};
+    index = ((temp << (BPTagLength_shift + BPBaseCache::uintcorrection)) >>( BPTagLength_shift + BPBaseCache::uintcorrection)) & address;
+    tag   = ((temp >> BPflatIndexLength) << BPflatIndexLength) & address;
+    tag   =  tag >> BPflatIndexLength;
+
+    switch(this->tblType){
+        case TableType::HASHED :
+            this->bTable[index].data = entryData;
+        break;
+
+        case TableType::ASSOCIATIVE:
+        case TableType::HASHEDplusTAG: 
+             for (std::size_t i{index}; i< this->effectiveTableLength; i+= this->numOfEntries){
+                 if (tag == bTable[i].tag){
+                    this->bTable[index].data = entryData;
+                    break;
+                 }
+        break;
+
+    }
+}
+}
+
 void BPBaseCache::replaceEntry(uint64_t address, uint64_t entryData){
     uint64_t temp{0xFFFFFFFF'FFFFFFFF};
     std::uint64_t index{0}, tag{0};
@@ -73,23 +98,26 @@ void BPBaseCache::replaceEntry(uint64_t address, uint64_t entryData){
 }
 
 
+
+
  void BPBaseCache::replacePolicyLRU(uint64_t index, uint64_t tag,  uint64_t entryData){
             uint64_t lruIndex = (index );
             for (std::size_t i{lruIndex+this->numOfEntries}; i <(this->effectiveTableLength); i+= this->numOfEntries){
                 if( bTable[lruIndex].lrutrack < bTable[i].lrutrack ){
                     lruIndex = i;
+                    break;
                 }
             }
-            this->bTable[lruIndex].data     = entryData;
+           // this->bTable[lruIndex].data     = entryData; --retain whatever is there
             this->bTable[lruIndex].tag      = tag;
             this->bTable[lruIndex].lrutrack = 0;
 
-            uint64_t lruIndex2 = (index);
-            for (std::size_t i{lruIndex2}; i <(this->effectiveTableLength); i+= numOfEntries){
-                if(i != lruIndex){
-                    this->bTable[i].lrutrack++;
-                }
-            }
+            //uint64_t lruIndex2 = (index);
+            // for (std::size_t i{lruIndex2}; i <(this->effectiveTableLength); i+= numOfEntries){
+            //     if(i != lruIndex){
+            //         this->bTable[i].lrutrack++;
+            //     }
+            // }
  }
 
  void BPBaseCache::replacePolicyHASHED(uint64_t index, uint64_t entryData){
@@ -105,7 +133,7 @@ void BPBaseCache::replaceEntry(uint64_t address, uint64_t entryData){
      uint64_t eFFIndex = (index);
      std::size_t randomOffset{static_cast<std::size_t>( dist(engine))};
      eFFIndex += (randomOffset * this->numOfEntries);
-      this->bTable[eFFIndex].data = entryData;
+      //this->bTable[eFFIndex].data = entryData;
       this->bTable[eFFIndex].tag  = tag;
 
  }

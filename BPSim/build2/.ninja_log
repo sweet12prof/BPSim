@@ -1,7 +1,15 @@
 # ninja log v6
-10	3427	7538857522137304	include/CMakeFiles/BPCacheLib.dir/cpp/BPBaseCache.cpp.obj	5dd02596d3e33a30
-3436	3608	7538857556449043	include/BPCacheLib.lib	3c89e45ea8bf77cf
-21	3637	7538857522284761	src/CMakeFiles/main.dir/main.cpp.obj	a7dd7a0c8568cc95
-3641	4326	7538857558512684	src/main.exe	d4f1edca0d4ceae
-24	2610	7538857946725935	src/CMakeFiles/main.dir/main.cpp.obj	a7dd7a0c8568cc95
+23	1753	7542446143000578	include/CMakeFiles/BPCacheLib.dir/cpp/BPBaseCache.cpp.obj	5dd02596d3e33a30
+19	1364	7542447279978804	src/CMakeFiles/main.dir/main.cpp.obj	a7dd7a0c8568cc95
+1755	1806	7542446160306899	include/BPCacheLib.lib	3c89e45ea8bf77cf
 2617	2924	7538857972698553	src/main.exe	d4f1edca0d4ceae
+35	179	7542451890151014	build.ninja	5eaa6bb4b697b697
+747	806	7542446150238676	include/patternLib.lib	11648eab1fc3497
+30	745	7542446143138888	include/CMakeFiles/patternLib.dir/cpp/PatternAutomatons.cpp.obj	7770e2d5af2ca292
+13	1335	7542447279810879	include/CMakeFiles/twoLevelBPLib.dir/cpp/Pag.cpp.obj	d84ccb88e3b85cf4
+1338	1402	7542447293140720	include/twoLevelBPLib.lib	c0d6add19b2422cc
+12	121	7542451890151014	build.ninja	5eaa6bb4b697b697
+31	1353	7542451890686873	src/CMakeFiles/main.dir/main.cpp.obj	a7dd7a0c8568cc95
+26	1441	7542451890686873	include/CMakeFiles/twoLevelBPLib.dir/cpp/Pag.cpp.obj	d84ccb88e3b85cf4
+1446	1794	7542451904813338	include/twoLevelBPLib.lib	c0d6add19b2422cc
+1796	2307	7542451908315401	src/main.exe	cf85b4bbd0994a4c

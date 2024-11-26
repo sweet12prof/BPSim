@@ -181,6 +181,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{37BA406C-4F03-3687-8A76-063D2F86A169}</Project>
       <Name>main</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\build\include\patternLib.vcxproj">
+      <Project>{BF059F1A-D5D5-3C31-B806-7AA3FE134661}</Project>
+      <Name>patternLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Chris Nutsukpui\Desktop\CPP\BPSim\BPSim\build\include\twoLevelBPLib.vcxproj">
+      <Project>{4281476C-FBD5-30B6-8F40-C2130EAABFCE}</Project>
+      <Name>twoLevelBPLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

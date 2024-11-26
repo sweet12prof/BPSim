@@ -13,6 +13,7 @@ class BPBaseCache{
        
         BPentryReturnVal getEantry(uint64_t address);
         void replaceEntry(uint64_t address, uint64_t entryData);
+        void modifyDataEntry(uint64_t address, uint64_t entryData);
 
         void replacePolicyHASHED(uint64_t index, uint64_t entryData);
         void replacePolicyLRU(uint64_t index, uint64_t tag,  uint64_t entryData);

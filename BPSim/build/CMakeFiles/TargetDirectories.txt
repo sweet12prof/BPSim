@@ -1,4 +1,6 @@
 C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/CMakeFiles/ZERO_CHECK.dir
 C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/include/CMakeFiles/BPCacheLib.dir
+C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/include/CMakeFiles/patternLib.dir
+C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/include/CMakeFiles/twoLevelBPLib.dir
 C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build/src/CMakeFiles/main.dir

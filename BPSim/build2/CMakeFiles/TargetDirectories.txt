@@ -1,6 +1,8 @@
 C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build2/CMakeFiles/edit_cache.dir
 C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build2/CMakeFiles/rebuild_cache.dir
 C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build2/include/CMakeFiles/BPCacheLib.dir
+C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build2/include/CMakeFiles/patternLib.dir
+C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build2/include/CMakeFiles/twoLevelBPLib.dir
 C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build2/include/CMakeFiles/edit_cache.dir
 C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build2/include/CMakeFiles/rebuild_cache.dir
 C:/Users/Chris Nutsukpui/Desktop/CPP/BPSim/BPSim/build2/src/CMakeFiles/main.dir

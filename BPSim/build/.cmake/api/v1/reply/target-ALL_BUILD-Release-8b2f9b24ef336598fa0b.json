@@ -17,6 +17,12 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "patternLib::@14b3099d61bfdbeae804"
+		},
+		{
+			"id" : "twoLevelBPLib::@14b3099d61bfdbeae804"
+		},
+		{
 			"id" : "BPCacheLib::@14b3099d61bfdbeae804"
 		},
 		{

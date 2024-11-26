@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Release/main.exe"
+			"path" : "src/RelWithDebInfo/main.exe"
 		},
 		{
-			"path" : "src/Release/main.pdb"
+			"path" : "src/RelWithDebInfo/main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -19,7 +19,8 @@
 		],
 		"files" : 
 		[
-			"src/CMakeLists.txt"
+			"src/CMakeLists.txt",
+			"include/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -39,6 +40,15 @@
 				"parent" : 0
 			},
 			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 3
+			},
+			{
 				"command" : 2,
 				"file" : 0,
 				"line" : 2,
@@ -52,10 +62,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++latest -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -std:c++latest -MD"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 5,
 					"fragment" : "-Wall"
 				}
 			],
@@ -85,6 +95,14 @@
 	[
 		{
 			"backtrace" : 2,
+			"id" : "patternLib::@14b3099d61bfdbeae804"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "twoLevelBPLib::@14b3099d61bfdbeae804"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "BPCacheLib::@14b3099d61bfdbeae804"
 		},
 		{
@@ -97,16 +115,26 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\include\\Release\\BPCacheLib.lib",
+				"fragment" : "..\\include\\RelWithDebInfo\\twoLevelBPLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\include\\RelWithDebInfo\\BPCacheLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\include\\RelWithDebInfo\\patternLib.lib",
 				"role" : "libraries"
 			},
 			{

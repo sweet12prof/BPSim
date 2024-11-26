@@ -9,8 +9,7 @@ class PredictorInterface{
         float         accuracyRatio{0.0}, 
                       HitRatio{0.0};
     public:
-        virtual void predictBranch(uint64_t branchAddress, bool actualDirection) = 0;
-        virtual void evaluateAndUpdateTable(bool actualDirection);
-        virtual void printStatistics() const;
+        virtual void predictBranch(uint64_t branchAddress, bool actualDirection) =0;
+        virtual void printStatistics() = 0;
         virtual ~PredictorInterface() = default; 
 };
