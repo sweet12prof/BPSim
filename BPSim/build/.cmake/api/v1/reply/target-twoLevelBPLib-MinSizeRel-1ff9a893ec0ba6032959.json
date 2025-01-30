@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "include/Release/twoLevelBPLib.lib"
+			"path" : "include/MinSizeRel/twoLevelBPLib.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++latest -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -std:c++latest -MD"
 				}
 			],
 			"includes" : 
@@ -88,11 +88,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "patternLib::@14b3099d61bfdbeae804"
+			"id" : "BPCacheLib::@14b3099d61bfdbeae804"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "BPCacheLib::@14b3099d61bfdbeae804"
+			"id" : "patternLib::@14b3099d61bfdbeae804"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"

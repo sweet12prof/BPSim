@@ -7,7 +7,7 @@ PagPredictor::PagPredictor(std::size_t bhrLength, std::size_t phtlegth, std::siz
     patternAutomataton(pattern), bhrMask((PagPredictor::MASKCONST << (64 - bhrLength)) >>  (64 - bhrLength))
     {
         this->BHT.InitBPTable(std::pow(2, bhrLength) - 1);
-        this->PHT.InitBPTable(std::pow(2, phtlegth) - 1);
+        this->PHT.InitBPTable((std::pow(2, phtlegth)/2)-1);
     }
 
 void PagPredictor::predictBranch(std::uint64_t branchAddress, bool actualDirection){
